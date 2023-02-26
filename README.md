@@ -2,6 +2,9 @@
 
 ![The App](https://github.com/YoniGoli/MySportFeed/blob/main/assets/app.gif?raw=true)
 
+[The app flow as a Gif](https://github.com/YoniGoli/MySportFeed/blob/main/assets/app.gif")
+
+
 ### Project Structure
 
 ![Project Structure](https://github.com/YoniGoli/MySportFeed/blob/main/assets/projectStructure.png?raw=true)
