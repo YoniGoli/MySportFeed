@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MySportFeed</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_match">Match</string>
+    <string name="something_went_wrong_title">Something went wrong</string>
+    <string name="no_data">No data</string>
+    <string name="versus">VS</string>
+</resources>

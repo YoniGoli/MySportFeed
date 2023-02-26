@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.yoni.mysportfeed.features.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_story"
+        android:name="com.yoni.mysportfeed.features.story.StoryFragment"
+        tools:layout="@layout/fragment_story">
+
+        <argument
+            android:name="storyId"
+            app:argType="string" />
+
+        <argument
+            android:name="pageIndex"
+            app:argType="integer"
+            android:defaultValue="0"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_match"
+        android:name="com.yoni.mysportfeed.features.match.MatchFragment"
+        android:label="@string/title_match"
+        tools:layout="@layout/fragment_match">
+
+        <argument
+            android:name="matchId"
+            app:argType="string" />
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_navigation_story"
+        app:destination="@id/navigation_story" />
+
+
+</navigation>
